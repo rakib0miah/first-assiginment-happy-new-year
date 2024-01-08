@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.common-title {
+    color: #F00;
+    margin: 48px 0 16px 0;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.common-heading {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.common-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.common-color {
+    color: #F00;
+}
+
+
+
+
+
+
+
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00)100%), url(../img/Banner\ Image.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 82%;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+
+.banner>h5 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 177px;
+    margin-bottom: 0;
+}
+
+.banner>h1 {
+    color: #FFF;
+    width: 632px;
+    margin: 16px auto;
+    text-align: center;
+    
+    font-size: 72px;
+    font-weight: 900;
+}
+
+
+
+
+.main-container {
+    width: 82%;
+    margin: 50px auto;
+}
+
+
+
+
+
+.happy-new-year-off {
+    width: 60%;
+    text-align: center;
+    margin: 120px auto;
+}
+
+.happy-new-year-off>h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+}
+
+.happy-new-year-off>img {
+    width: 100%;
+}
+
+.happy-new-year-off>h3 {
+    color: #070211;
+    text-align: center;
+    margin-bottom: 48px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+.midnight-container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../img/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    gap: 4%;
+    border-radius: 16px;
+    min-height: 600px;
+}
+
+.midnight-info {
+    width: 70%;
+    padding: 100px 0 142px 100px;
+}
+
+.midnight-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.midnight-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.midnight-year-logo {
+    padding: 67px 100px 68px 0;
+}
+
+.midnight-year-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.midnight-info .midnight-join-btn {
+    background-color: #070211;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    left: 32px;
+}
+
+
+
+
+
+
+.hotel-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    padding: 120px 200px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.hotel-info-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hotel-info-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.hotel-join-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    margin-top: 64px;
+}
+
+
+
+
+
+
+.new-best-offer-1 {
+    margin-top: 120px;
+    display: flex;
+    align-items: last baseline;
+    gap: 150px;
+    background: #FFF;
+}
+
+.new-offer-info-img-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.new-offer-info {
+    width: 550px;
+}
+
+.new-offer-img img {
+    width: 75%;
+    border-radius: 463px;
+    padding: 50px;
+    border: 15px solid #F00;
+}
+
+.new-year-compliment {
+    width: 100%;
+}
+
+.year-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.new-year-compliment>img {
+    margin-top: 43px;
+}
+
+
+
+
+
+
+.gift-portfolio-container {
+    margin-top: 120px;
+}
+
+.gift-portfolio-container #gift-description {
+    max-width: 67%;
+}
+
+.gift-portfolio-container .gift-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.gift-portfolio-container .gift-container img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.gift-portfolio-container .gift-container img:hover {
+    transform: scale(1.04);
+}
+
+
+
+
+
+
+
+.subscribe-section {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 120px;
+    padding: 80px 212px;
+    text-align: center;
+}
+
+.form-part {
+    margin-top: 48px;
+}
+
+input[type="email"] {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    padding: 25px 30px;
+    border: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+input[type="email"]:hover {
+    outline: none;
+}
+
+.subscribe-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    position: relative;
+    right: 3px;
+    top: 1px
+}
+
+
+
+
+
+
+
+.footer-section {
+    margin-top: 120px;
+    background: #070211;
+    padding: 80px 80px;
+}
+
+address {
+    font-style: normal;
+}
+
+.footer-section .copyright-1 {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.footer-section .social-media-link {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 50px auto;
+    list-style: none;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
